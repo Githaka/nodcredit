@@ -1,0 +1,246 @@
+@media (min-width: 1200px) {
+    .container {
+        width: 1000px;
+    }
+}
+
+@media (min-width: 1400px) {
+    body {
+        zoom: 1.1;
+    }
+}
+
+@media (min-width: 1600px) {
+    body {
+        zoom: 1.24;
+    }
+}
+
+@media (min-width: 1800px) {
+    body {
+        zoom: 1.32;
+    }
+}
+
+@media (min-width: 1920px) {
+    body {
+        zoom: 1.5;
+    }
+}
+
+@media (min-width: 770px) and (max-width: 1280px) {
+    body {
+        zoom: .91;
+    }
+}
+
+@media (max-width: 770px) {
+    body.header-fixed-space {
+        padding-top: 0px;
+    }
+
+    .slider-text {
+        left: 35px !important;
+        top: 10px !important;
+    }
+
+    .header-v6 .menu-container {
+        padding-left: 45px;
+    }
+
+    .mad-slidexxx {
+        top: 20%;
+        left: 28px;
+        width: 50%;
+    }
+
+    img.slider-image {
+        width: 420px !important;
+    }
+
+    .grey-it {
+        width: 40%;
+        top: 50%;
+        right: 15%;
+    }
+}
+
+@media (min-width: 481px) {
+    .desktop-delete {
+        display: none;
+    }
+
+    .inner-form .nod-form {
+        padding: 40px 140px;
+    }
+
+    .inner-form .top-steps {
+        margin-top: -45px;
+        padding-bottom: 30px;
+    }
+
+}
+
+@media (max-width: 325px) {
+    .home-form {
+        top: 23% !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .mobile-delete {
+        display: none;
+    }
+
+    .header-v6 .menu-container {
+        padding-left: 15px;
+    }
+
+    .ls-container {
+        height: 500px !important;
+    }
+
+    .mad-slidexxx {
+        top: 30%;
+        left: 8px;
+        width: 100%;
+    }
+
+    .slider-text {
+        left: 15px !important;
+    }
+
+    img.slider-image {
+        width: 220px !important;
+        top: 70% !important;
+        left: 20% !important;
+    }
+
+    section.crevance-bkg,
+    section.crevance-white,
+    section.crevance-grey {
+        padding: 60px 0;
+    }
+
+    .product .nav {
+        width: 120%;
+        margin-left: -30px;
+    }
+
+    .product .tab-content {
+        padding: 20px;
+        margin-right: 0;
+    }
+
+    .footer .the-end {
+        margin-bottom: 50px;
+    }
+
+    .footer-v8 .footer {
+        padding: 40px 0 60px;
+    }
+
+    .big-title {
+        font-size: 50px;
+        padding: 0;
+    }
+
+    .cv-image img {
+        width: 80px;
+    }
+
+    .mad-colz {
+        padding: 20px 5px;
+        font-size: 11px;
+    }
+
+    .mad-colz.abx {
+        padding: 28px 0;
+    }
+
+    section.crevance-grey.cv-product {
+        padding: 40px 0;
+    }
+
+    .wishlist {
+        padding: 0;
+    }
+
+    .slider-text h1 {
+        font-size: 27px;
+    }
+
+    .crevance-123 h2 {
+        padding: 23%;
+    }
+
+    .crevance-123 hr {
+        width: 45px;
+    }
+
+    section.crevance-bkg h3 {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .grey-it {
+        display: none;
+    }
+
+    .header-v6 .navbar-toggle {
+        margin: 10px 0 10px 15px;
+    }
+
+    .header-v6 .navbar-brand {
+        line-height: 50px;
+    }
+
+    .header-v6 .navbar-brand img {
+        margin-left: 0;
+    }
+
+    .home-form {
+        top: 30%;
+    }
+
+    .opt-part,
+    .nod-card,
+    .howto {
+        margin-bottom: 20px;
+    }
+
+    .nod-section {
+        padding: 60px 0 40px;
+    }
+
+    .testimonialz h4 {
+        padding: 10px 20px;
+    }
+
+    .opt-part {
+        padding: 0 30px;
+    }
+
+    .header-fixed .header-v6.header-classic-white .navbar-nav>li>a.get-started-menu {
+        margin: 0 0 20px;
+        border-top: 0;
+    }
+
+    .header-fixed .header-v6.header-classic-white .navbar-nav>li>a {
+        padding-left: 20px;
+    }
+
+    .nod-form.has-steps {
+        margin-top: 30px;
+    }
+
+    .img-mobile {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 320px) {
+    body {
+        zoom: .8
+    }
+}

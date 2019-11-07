@@ -1,0 +1,38 @@
+<?php
+
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\Migrations\Migration;
+
+class AddFieldsToPayments extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::table('payments', function (Blueprint $table) {
+            $table->longText('investment_liquidation_reason')->nullable();
+            $table->decimal('investment_profit', 12,0)->default(0);
+            $table->unsignedInteger('liquidation_days')->default(0);
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::table('payments', function (Blueprint $table) {
+            $table->dropColumn([
+               'investment_liquidation_reason',
+                'investment_profit',
+                'liquidation_days'
+            ]);
+        });
+    }
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16px" height="21px" viewBox="0 0 16 21" version="1.1">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>main/back</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Components" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="main/back" transform="translate(8.000000, 10.500000) rotate(-270.000000) translate(-8.000000, -10.500000) translate(-2.500000, 1.500000)" stroke="#2A2B37" stroke-width="1.5">
+            <path d="M1.5,8.75 L20.0400009,8.75" id="Path" fill="#D8D8D8" fill-rule="evenodd"/>
+            <path d="M1.00891721,9.00891721 L8.01783442,16.0178344 L1.00891721,9.00891721 L8.01783442,2 L1.00891721,9.00891721 Z M1.00891721,9.00891721 L1,9 L1.00891721,9.00891721 L1,9.01783442 L1.00891721,9.00891721 Z" id="Path-3"/>
+        </g>
+    </g>
+</svg>
